@@ -1,45 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: initial;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: initial;
 }
 
-body{
-   background-color:#f2f2f2;
-   font-family: BentonSans,sans-serif;
+body {
+  background-color: #f2f2f2;
+  font-family: BentonSans,sans-serif;
+  color: #070707;
+  padding: 50px 100px;
 }
-#nav{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    justify-content: space-between;
-    text-align: center;
-    margin-top: 50px;
-    padding: 10px;
-    
+#nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  text-align: center;
 }
-.menu{
-    font-size: 12px;
-    display: flex;
-    gap: 20px;
-    color:rgb(82, 82, 82);
-    font-weight: 400;
-    text-transform: uppercase;
-    
+.menu {
+  font-size: 16px;
+  display: flex;
+  gap: 20px;
+  color: rgb(82, 82, 82);
+  font-weight: 400;
+  text-transform: uppercase;
 }
-.contact{
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: rgb(82, 82, 82)
+.contact {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(82, 82, 82);
 }
-.contaner{
-    margin-left: 50%;
-    margin-top: -50px;
+.contaner {
+  margin-left: 50%;
+  margin-top: -50px;
 }
-.contaner p{
-font-size: 16px;
-font-weight: 400;
+.contaner p {
+  font-size: 16px;
+  font-weight: 400;
 }
+.text {
+  display: flex;
+  font-family: AftenScreen;
+  font-size: 192px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.text span {
+  color: lightgrey;
+}
+
+.video1 {
+  width: 100;
+  height: 100vh;
+}
+.video2 {
+  width: 100;
+  height: 100vh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.dig p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 107px;
+  line-height: 107px;
+  font-family: AftenScreen, sans-serif;
+  font-weight: 300;
+  color: #070707;
+}
+
+.dig-cont{
+  font-family: BentonSans, sans-serif;
+  align-items: center;
+  font-size: 16px;
+  margin-left: 50%;
+  font-weight: 400;
+}
+.ser{
+    margin-top: 20px;
+}
+.ser a{
+   color: #070707;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 400;
+}
+
 
