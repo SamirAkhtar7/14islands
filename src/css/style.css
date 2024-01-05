@@ -5,11 +5,11 @@
   box-sizing: initial;
 }
 
-body {
+#main {
   background-color: #f2f2f2;
-  font-family: BentonSans,sans-serif;
+  font-family: BentonSans, sans-serif;
   color: #070707;
-  padding: 50px 100px;
+  padding: 50px 50px;
 }
 #nav {
   display: flex;
@@ -53,11 +53,11 @@ body {
 }
 
 .video1 {
-  width: 100;
+  width: 100%;
   height: 100vh;
 }
 .video2 {
-  width: 100;
+  width: 100%;
   height: 100vh;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -72,22 +72,123 @@ body {
   color: #070707;
 }
 
-.dig-cont{
+.dig-cont {
   font-family: BentonSans, sans-serif;
   align-items: center;
   font-size: 16px;
   margin-left: 50%;
   font-weight: 400;
 }
-.ser{
-    margin-top: 20px;
+.ser {
+  margin-top: 20px;
 }
-.ser a{
-   color: #070707;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 16px;
-   font-weight: 400;
+.ser a {
+  color: #070707;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
 }
+#images img {
+  width: 686px;
+  height: 457px;
+  border-radius: 5px;
+}
+#images {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  column-gap: 10px;
+  row-gap: 50px;
+}
+#images h1 {
+  text-align: start;
+  font-size: 26px;
+  margin-top: 30px;
+  font-weight: 400;
+  color: #070707;
+}
+.text1 {
+  color: rgb(187, 180, 180);
+  margin-left: 10px;
+}
+.tcont{
+  margin-top: 100px;
+  margin-left: 50%;
 
+  border-top: 1px solid rgb(187, 180, 180);
+  font-size: 26px;
+  
+}
+.text2{
+  color: rgb(187, 180, 180);
+  margin-left: 20px;
+}
+.tcont p{
+border-bottom: 1px solid rgb(187, 180, 180);
+padding: 20px 0;
+}
+.t3{
+  font-size: 80px;
+  margin-top: 300px;
+  font-weight: 400;
+  font-family: AftenScreen, sans-serif;
+}
+.t3a{
+  color: rgb(187, 180, 180);
+}
+.cal{
+  margin-top: 100px;
+  margin-left: 50%;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: AftenScreen, sans-serif;
+  margin-bottom: 100px;
+}
+.cal p{
+   margin-top: 10px;
+}
+.cal a{
+  font-size: 14px;
+ 
+  color: #070707;
+  text-decoration: none;
+}
+#footer{
+  background-color: #fff;
+  font-family: AftenScreen, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  padding: 50px ;
 
+}
+#footer p{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.gmail{
+  margin-top: 200px;
+  text-align: end;
+  font-family: BentonSans, sans-serif;
+}
+.foorter-nav{
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:300px ;
+  margin-bottom: 0;
+  color: rgb(187, 180, 180);
+}
+.soc{
+  display: flex;
+  color: #070707;
+  font-weight: 400;
+  font-size: 14px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
